@@ -75,6 +75,10 @@ summary.out$which[3,]
 ```
 
 
+```{r}
+best2.model <- lm(Weight~Height+Width,data=perchFish)
+summary(best2.model)
+```
 
 
 
