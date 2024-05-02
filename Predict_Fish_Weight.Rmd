@@ -18,7 +18,12 @@ require(tigerstats)
 require(tidyverse)
 ```
 
-# Predicting Fish Weight
+
+```{r}
+fishdata <- read.csv("Fish.csv")
+unique(fishdata$Species)
+```
+
 
 
 ## Perch
@@ -26,6 +31,7 @@ require(tidyverse)
 ### Best Models
 
 ### Best Two regressor model
+
 
 
 ## Pike
