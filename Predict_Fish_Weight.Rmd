@@ -64,6 +64,17 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 ##Which is the best?
 
+```{r}
+which.max(summary.out$adjr2)
+```
+
+The two best parameters to predict weight would be height and width. 
+
+
+
+
+
+
 
 ## Pike
 
