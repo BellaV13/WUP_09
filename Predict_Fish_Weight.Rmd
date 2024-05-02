@@ -28,9 +28,20 @@ unique(fishdata$Species)
 
 ## Perch
 
+```{r}
+perchFish <- filter(fishdata, Species=="Perch")
+perchFish <- perchFish %>%
+  select(-Species)
+```
+
+
 ### Best Models
 
+There are best models for all three species. 
+
 ### Best Two regressor model
+
+
 
 
 
